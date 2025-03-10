@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quizzz</title>
+    <title>Quiz multithème</title>
+    <script defer type="module" src="/play.js"></script>
 </head>
 <body>
+    
+    <div id="theme-selection">
+        <h1>Choisissez un thème</h1>
+        <button class="selection-button-quiz" id="btnFilmsEtSeries">Films et Séries</button>
+        <button class="selection-button-quiz" id="btnGaming">Gaming</button>
+        <button class="selection-button-quiz" id="btnGastronomie">Gastronomie</button>
+        <button class="selection-button-quiz" id="btnGeographie">Géographie</button>
+        <button class="selection-button-quiz" id="btnHistoire">Histoire</button>
+        <button class="selection-button-quiz" id="btnNaturopathie">Naturopathie</button>
+    </div>
+    
+    
+    <div class="quiz-container" style="display: none;">
+        <h1 id="quiz-title"></h1>
+        <div id="questions-container">
+            <p id="questions-text"></p>
+            <div id="options-container"></div>
+        </div>
+        <button id="nex-button">Suivant</button>
+        <p id="explanation"></p>
+        <button id="change-theme-button">Changer de thème</button>
+    </div>
     
 </body>
 </html>

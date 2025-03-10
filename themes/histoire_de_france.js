@@ -1,4 +1,4 @@
-const histoireDeFrance = {
+export const histoireDeFrance = {
     questions: [
         {
             text: "Quelle bataille a marqué la fin de Napoléon Bonaparte en 1815 ?",

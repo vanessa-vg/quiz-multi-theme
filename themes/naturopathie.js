@@ -1,4 +1,4 @@
-const naturopathie = {
+export const naturopathie = {
     questions: [
         {
             text: "Quelle est la pratique principale de la naturopathie ?",

@@ -1,4 +1,4 @@
-const gastronomie = {
+export const gastronomie = {
    questions: [
     {
         text: `Quel pays est à l'origine "Kobe beef", un des bœufs les plus réputés au monde ?`,

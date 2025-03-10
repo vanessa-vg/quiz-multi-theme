@@ -1,4 +1,4 @@
-const gaming = {
+export const gaming = {
     questions: [
         {
         text: "Quel est le jeu vidéo le plus vendu de tous les temps ?",

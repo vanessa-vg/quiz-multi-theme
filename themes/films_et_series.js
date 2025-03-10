@@ -1,4 +1,4 @@
-const filmsEtSeries = {
+export const filmsEtSeries = {
     questions: [
         {
         text: "Quel film a remporté l'Oscar du meilleur film en 1994 ?",

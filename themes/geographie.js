@@ -1,4 +1,4 @@
-const geographie = {
+export const geographie = {
     questions: [
         {
             text: "Quel pays possède le plus grand nombre de fuseaux horaires ?",
